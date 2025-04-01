@@ -1,3 +1,4 @@
+
 /*In a growing city, a newly established bank sought to streamline its operations by implementing a
 digital system to manage customer accounts. The management envisioned a system where each
 account would store details about the account holder, their unique account number, and the current
