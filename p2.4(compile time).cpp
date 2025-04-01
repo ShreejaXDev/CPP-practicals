@@ -1,3 +1,4 @@
+
 /*A mid-sized retail store faced challenges in efficiently managing its inventory of items. The store's
 management sought to build a system that could keep track of individual items, including details like
 a unique item ID, item name, price, and the quantity available in stock. The need for a streamlined
