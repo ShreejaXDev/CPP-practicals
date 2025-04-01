@@ -1,3 +1,4 @@
+
 /*A small retail store is facing challenges in managing its inventory effectively. The store sells a
 variety of products, each identified by a unique product ID, a name, the available quantity in
 stock, and the price per unit. To streamline their operations, the store needs a basic system to
