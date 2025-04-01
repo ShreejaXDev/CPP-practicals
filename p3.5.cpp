@@ -1,9 +1,10 @@
+
 /*A data analytics company was tasked with developing a unique digital signature system based on the
 concept of "super digits." The system required finding a single-digit representation of a given number
 through recursive digit summation. The algorithm was defined as follows:
 If the number has only one digit, it is its super digit. Otherwise, the super digit is the super digit of the
 sum of its digits, repeated recursively until a single digit is obtained.
-The challenge involved an additional complexity—constructing the number by concatenating a given
+The challenge involved an additional complexityâ€”constructing the number by concatenating a given
 string representation of an integer multiple times. For example, if the number n was represented as a
 string and concatenated k times, the super digit of the resulting number needed to be calculated.
 For instance:
