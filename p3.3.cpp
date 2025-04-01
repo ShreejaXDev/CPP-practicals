@@ -1,8 +1,9 @@
 
 
+
 /*A community bank sought to enhance its account management system with a digital solution to
 improve efficiency and provide better customer service. The system was required to manage the
-essential details of each account, including the account number, account holder’s name, and balance.
+essential details of each account, including the account number, account holderâ€™s name, and balance.
 Additionally, the bank wanted to provide a secure mechanism for transferring money between
 accounts, allowing customers to easily manage their funds.
 The bank also needed a way to track the total number of accounts created, which would be important
