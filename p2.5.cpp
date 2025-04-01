@@ -1,3 +1,4 @@
+
 /*A regional banking institution sought to improve its loan management process by developing a system
 that could efficiently handle loan details for applicants. The system was expected to streamline the
 calculation of monthly EMIs (Equated Monthly Instalments) and provide detailed loan summaries for
