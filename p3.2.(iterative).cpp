@@ -1,5 +1,4 @@
-
-/*A software development company was tasked with conducting a performance analysis of recursive
+/*A software development company was tasked with conducting a performance analysis of recursive
 algorithms versus their iterative counterparts. The specific focus was on calculating the sum of
 integers in an array, where the array's size and elements were to be provided dynamically by the user.
 To facilitate memory management and enable dynamic resizing of the array, the team decided to use
