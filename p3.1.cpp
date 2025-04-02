@@ -1,5 +1,5 @@
 
-/*A growing organization sought to enhance its payroll process to improve accuracy and efficiency in
+/*A growing organization sought to enhance  its payroll process to improve accuracy and efficiency in
 calculating employee salaries. The goal was to manage details such as the employee's name, basic
 salary, and bonus amount. While most employees would receive a default bonus, there was a need
 for flexibility to provide customized bonuses for exceptional performers or those in specialized roles.
