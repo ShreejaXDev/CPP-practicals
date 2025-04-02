@@ -1,4 +1,3 @@
-
 /*A data analytics company was tasked with developing a unique digital signature system based on the
 concept of "super digits." The system required finding a single-digit representation of a given number
 through recursive digit summation. The algorithm was defined as follows:
