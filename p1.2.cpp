@@ -47,16 +47,16 @@ class Product
     void UpdateQuan()
     {
         cout << "Enter no. of quantity to be update: ";
-        cin >> Quantity;//Taking input of product's quantity
+        cin >> Quantity;
         cout << "Quantity is updated successfully!" << endl;
     }
 
-    int CalculateValue()//Function for returning total price of product
+    int CalculateValue()
     {
-         return Quantity*Price;//Return statement
+         return Quantity*Price;
     }
 
-    void DisplayBill()//Function for displaying bill
+    void DisplayBill()
     {
         cout << ProdName << "\t";
         cout << Quantity << "\t\t";
@@ -66,10 +66,10 @@ class Product
 
 int main()//Main function
 {
-    class Product P[100];//Creating object
-    int Choice;//Variable for choice
-    int ProdFind;//Variable for matching product ID
-    int ProdCount=0;//Initializing variable for no. of product to 1
+    class Product P[100];
+    int Choice;
+    int ProdFind;
+    int ProdCount=0;
 
     //Printing menu
     cout << "Enter 1 to add new product." << endl;
@@ -80,7 +80,7 @@ int main()//Main function
 
 next :
     cout << "Enter the option which you want: ";
-    cin >> Choice;//Taking input of choice
+    cin >> Choice;
 
 
         switch (Choice)//Switch case
@@ -97,26 +97,26 @@ next :
                     int ProdFind;//Variable for matching product ID
 
                     cout << "Enter product ID: ";
-                    cin >> ProdFind;//Taking input of product id to search
+                    cin >> ProdFind;
 
-                    for(int i=0; i < ProdCount; i++)//Loop for matching product id with entered product id
+                    for(int i=0; i < ProdCount; i++)
                     {
-                        if(P[i].GetID() == ProdFind)//If product id is matched with entered product id...
+                        if(P[i].GetID() == ProdFind)
                         {
-                           P[i].UpdateQuan();//Calling UpdateQuan function
-                           break;//Break statement
+                           P[i].UpdateQuan();
+                           break;
                         }
 
                         else//If not...
                         {
-                                cout << "Product not found!" << endl;//Printing error message
-                                break;//Break statement
+                                cout << "Product not found!" << endl;
+                                break;
                         }
                     }
-                    break;//Break statement
+                    break;
                 }
 
-            case 3://Case for displaying bill
+            case 3:
                 {
                     int TotalValue=0;//Initializing TotalValue variable to 0
 
@@ -124,23 +124,23 @@ next :
                     cout << "Name\tQuantity\tPrice\tTotal" << endl;
                     cout << "--------------------------------------" << endl;
 
-                    for(int i=0; i < ProdCount ;i++)//Loop for calling displayBill function
+                    for(int i=0; i < ProdCount ;i++)
                     {
-                        P[i].DisplayBill();//Calling DisplayBill function
+                        P[i].DisplayBill();
                         TotalValue += P[i].CalculateValue();
                     }
 
                     cout << "--------------------------------------" << endl;
                     cout << "Total Bill: " << TotalValue << endl;//Printing total bill
-                    cout << "24CE132_shreeja" << endl;//Printing exiting message
-                    return 0;//Return statement
+                    cout << "24CE132_shreeja" << endl;
+                    return 0;
                 }
 
-            default://Default case
+            default:
                 {
-                    cout << "24CE132-shreeja" << endl;//Printing exiting message
-                    return 0;//Return statement
+                    cout << "24CE132-shreeja" << endl;
+                    return 0;
                 }
         }
-        goto next;//Goto statement
+        goto next;
 }
