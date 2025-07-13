@@ -12,7 +12,6 @@ creating a simple and efficient solution to manage the accounts effectively. The
 ensure that all account details are secure and accessible only through authorized methods. */
  //this program is prepared by 24CE132_shreeja
 
-
 #include<iostream>
 using namespace std;
 
