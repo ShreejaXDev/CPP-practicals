@@ -1,4 +1,4 @@
-/*A bank wants to create a simple system to manage customer bank accounts. The system should 
+/*A bank wants to create a simple system to  manage customer bank accounts. The system should 
 allow customers to perform basic banking operations such as depositing money, withdrawing 
 money, and checking their account balance. 
 Each bank account will need to have an account holder's name, a unique account number, and 
